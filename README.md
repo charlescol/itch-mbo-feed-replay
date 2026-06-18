@@ -1,13 +1,13 @@
 ## Build
 
-This project uses CMake and vcpkg.
-
 ### Prerequisites
 
 - CMake >= 3.24
 - C++23 compiler
 - Make
 - vcpkg: https://github.com/microsoft/vcpkg
+
+### Setup
 
 Make sure `VCPKG_ROOT` points to your vcpkg installation:
 
@@ -16,20 +16,20 @@ export VCPKG_ROOT="$HOME/vcpkg"
 export PATH="$VCPKG_ROOT:$PATH"
 ```
 
-Configure and build:
+### Configure and build:
 
 ```bash
 cmake --preset debug
 cmake --build --preset debug
 ```
 
-Run:
+### Run:
 
 ```bash
 ./build/debug/itch_mbo_feed_replay
 ```
 
-Release build:
+### Release build:
 
 ```bash
 cmake --preset release

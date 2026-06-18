@@ -1,0 +1,5 @@
+{
+  "name": "itch-mbo-feed-replay",
+  "version-string": "0.1.0",
+  "dependencies": ["openssl", "zstd", "nlohmann-json", "cpp-httplib", "date"]
+}
